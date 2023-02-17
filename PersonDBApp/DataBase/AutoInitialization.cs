@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using PersonDBApp.DataBase;
 
 
-namespace PersonDBApp
+namespace PersonDBApp.DataBase
 {
     public class AutoInitialization
     {
@@ -36,7 +35,7 @@ namespace PersonDBApp
                 string lastName = lastNames[i];
                 string middleName = Faker.Name.Middle();
 
-                string fullName = string.Format("{0} {1} {2}",firstName , lastName, middleName);
+                string fullName = string.Format("{0} {1} {2}", firstName, lastName, middleName);
                 DateTime birthDate = startDate.AddDays(random.Next(366)).AddYears(random.Next(30));
                 string gender = "Male";
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonDBApp
+namespace PersonDBApp.Services
 {
     internal class ConsoleReader
     {
@@ -28,7 +28,7 @@ namespace PersonDBApp
             Console.WriteLine("Введите пол:");
             gender = Console.ReadLine();
 
-            return new Person {FullName = fullName, BirthDate = birthDate, Gender = gender };
+            return new Person { FullName = fullName, BirthDate = birthDate, Gender = gender };
         }
     }
 }

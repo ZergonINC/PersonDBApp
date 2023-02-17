@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonDBApp
+namespace PersonDBApp.Services
 {
     internal class ConsoleWriter<T>
     {

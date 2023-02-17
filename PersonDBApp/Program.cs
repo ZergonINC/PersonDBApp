@@ -1,9 +1,6 @@
-﻿using PersonDBApp;
-using PersonDBApp.DataBase;
+﻿using PersonDBApp.DataBase;
 using PersonDBApp.Querys;
-using System.Data;
-using System.Diagnostics;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using PersonDBApp.Services;
 
 ConsoleReader reader = new();
 InsertingData inserting = new();
