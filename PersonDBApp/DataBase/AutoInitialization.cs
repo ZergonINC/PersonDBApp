@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-
-
+﻿
 namespace PersonDBApp.DataBase
 {
     public class AutoInitialization
@@ -52,7 +49,7 @@ namespace PersonDBApp.DataBase
             };
 
             //Добавляем оставшийся миллион человек
-            for (int i = 0; i < 200; i++)//Нужно параллельно
+            for (int i = 0; i < 200; i++)
             {
                 persons.Clear();
 
