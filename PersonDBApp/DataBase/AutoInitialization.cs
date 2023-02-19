@@ -43,7 +43,6 @@ namespace PersonDBApp.DataBase
             //сохраняем
             using (ApplicationContext db = new())
             {
-                db.Database.EnsureDeleted();
                 db.AddRangeAsync(persons);
                 db.SaveChanges();
             };
