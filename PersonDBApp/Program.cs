@@ -13,7 +13,6 @@ AutoInitialization autoInitialization = new();
 string command = string.Empty;
 bool work = true;
 
-//Я понимаю, что свитч не самый лучший выбор, но для простенького приложения должно подойти
 while (work)
 {
     //Ожидание ввода команды
